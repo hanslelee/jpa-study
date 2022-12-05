@@ -13,6 +13,7 @@ spring:
         show_ddl: true # 얘는 시스템아웃으로 찍음 -> 운영에선 이렇게 하면 안됨
         format_sql: true
         default_batch_fetch_size: 100
+#    open-in-view: false
 
 logging:
   level:
