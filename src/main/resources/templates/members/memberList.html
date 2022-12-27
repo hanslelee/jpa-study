@@ -17,12 +17,12 @@
             </tr>
             </thead>
             <tbody>
-            <tr th:each="member : ${members}">
-                <td th:text="${member.id}"></td>
-                <td th:text="${member.name}"></td>
-                <td th:text="${member.address?.city}"></td>
-                <td th:text="${member.address?.street}"></td>
-                <td th:text="${member.address?.zipcode}"></td>
+            <tr th:each="user : ${users}">
+                <td th:text="${user.id}"></td>
+                <td th:text="${user.name}"></td>
+                <td th:text="${user.address?.city}"></td>
+                <td th:text="${user.address?.street}"></td>
+                <td th:text="${user.address?.zipcode}"></td>
             </tr>
             </tbody>
         </table>
